@@ -1,0 +1,196 @@
+.content{
+    float:left;
+    width: 60%;
+    padding:0 0 0 30px;
+    height: 100%;
+}
+.sidebar{
+    float:right;
+    width:30%;
+    padding:10px;
+    background: green;
+    height: 100%;
+
+}
+h1{
+    text-align: center;
+    border-bottom: 1px solid #bbb;
+    padding: 0 0 10px 0;
+}
+#date{
+    color:red;
+    font-size:12px;
+    font-style: italic;
+}
+body{
+    background-image: url("https://media.istockphoto.com/id/1156772856/photo/abstract-blur-soft-focus-blue-color-interior-of-modern-cleaning-workplace-background-with.jpg?b=1&s=612x612&w=0&k=20&c=TM1ANGEG5NEFKMZeczYP4Oat8wtEiofobMeqAbRHJfM=");
+    background-repeat: no-repeat;
+    background-size: cover;
+    color:white;
+}
+h1{
+    color: black;
+}
+button{
+    color: deepskyblue;
+    border: 1px solid deepskyblue;
+    height: 35px;
+    width: 100px;
+    border-radius: 30px;
+    margin-bottom: 10px;
+    transition: background-color 0.15s,opacity 0.15s;
+}
+button:hover{
+    background-color: deepskyblue;
+    color: white;
+    opacity: 0.7;
+
+}
+button:active{
+    opacity: 0.3;
+    background-color: darkblue;
+
+}
+.login{
+    border: 1px solid deepskyblue;
+    padding-bottom: 10px;
+    margin-top: 130px;
+    width: 400px;
+    margin-left: 400px;
+    border-radius: 20px;
+}
+.par{
+    display: inline-block;
+}
+.signup{
+    color: black;
+    border: 1px solid deepskyblue;
+    padding-bottom: 10px;
+    margin-top: 120px;
+    width: 400px;
+    margin-left: 400px;
+    border-radius: 20px;
+    text-align: center;
+}
+#div1 {
+    background-color: white;
+}
+
+#a1 {
+    float: right;
+    margin-top: 10px;
+}
+#sidebar{
+    color: black;
+}
+*{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+}
+#sidebar{
+    position: fixed;
+    left: -250px;
+    width: 250px;
+    height: 100%;
+    background: #042331;
+    transition: all .5s ease;
+    top: 0;
+}
+#sidebar header{
+    font-size: 22px;
+    color: white;
+    text-align: center;
+    line-height: 70px;
+    background: #063146;
+    user-select: none;
+}
+#sidebar ul a{
+    display: block;
+    height: 100%;
+    width: 100%;
+    line-height: 65px;
+    font-size: 20px;
+    color: white;
+    padding-left: 40px;
+    box-sizing: border-box;
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
+    transition: .4s;
+}
+#sidebar ul a:hover{
+    padding-left: 50px;
+}
+#sidebar ul a i{
+    margin-right: 16px;
+}
+#check{
+    display: none;
+}
+label #btn,label #cancel {
+    position: absolute;
+    cursor: pointer;
+    background: #042331;
+    border-radius: 3px;
+}
+label #btn{
+    left: 25px;
+    top: 30px;
+    font-size: 20px;
+    color: white;
+    padding: 6px 12px;
+    transition: all .5s;
+}
+label #cancel {
+    z-index: 1111;
+    left: -195px;
+    top: 17px;
+    font-size: 30px;
+    color: #0a5275;
+    padding: 4px 9px;
+    transition: all .5s ease;
+}
+#check:checked~#sidebar{
+    left: 0;
+}
+#check:checked~label #btn{
+    left: 250px;
+    opacity: 0;
+    pointer-events: none;
+}
+#check:checked~label #cancel{
+   left: 195px;
+}
+#div2{
+    color: black;
+    border: 1px solid deepskyblue;
+    text-align: center;
+    border-radius: 15px;
+}
+#div4{
+    color: black;
+}
+#div5{
+    padding-left: 10px;
+}
+#div6{
+    color: black;
+    border: 1px solid deepskyblue;
+    text-align: center;
+    width: 500px;
+    margin-top: 50px;
+    margin-left: 100px;
+    border-radius: 25px;
+}
+#p1{
+    color: black;
+    float: right;
+    font-weight: bold;
+}
+#div7{
+    color: black;
+    margin-top: 150px;
+    display: inline-block;
+    margin-left: 300px;
+}

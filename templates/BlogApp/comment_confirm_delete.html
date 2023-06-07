@@ -1,0 +1,11 @@
+<!DOCTYPE html>
+{% extends 'BlogApp/base.html' %}
+{% block content %}
+     <h3 style="color: black">Do You Want To Delete {{ comment.name }} comments ?????</h3>
+        <hr/>
+        <form method="post">
+            {% csrf_token %}
+            <button type="submit">delete</button>
+            <a href="/tag/"><button type="button">CANCEL</button></a>
+        </form>
+{% endblock %}

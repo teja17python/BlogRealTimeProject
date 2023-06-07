@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+{% extends 'BlogApp/base.html' %}
+{% block content %}
+    <div id="div2">
+        <h2>Post form</h2>
+        <form method="post" enctype="multipart/form-data">
+            {{ form.as_p }}
+            {% csrf_token %}
+           <!-- <input type="file"><br/>-->
+            <a href="/thankyou/"><button type="submit">Submit</button></a>
+            <a href="/tag/"><button type="button">Back</button></a>
+        </form>
+    </div>
+{% endblock %}
